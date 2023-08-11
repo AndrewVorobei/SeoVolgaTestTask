@@ -121,8 +121,10 @@ const getSavedArticles = () => {
       display: none;
     }
     ul {
+      padding-top: 15px;
       display: flex;
       flex-direction: column;
+      height: 100%;
       gap: 1em;
 
       input {
